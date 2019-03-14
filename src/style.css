@@ -1,0 +1,89 @@
+@font-face {
+    font-family: montserrat;
+    src: url('/src/Montserrat-Regular.ttf');
+}
+* {
+    font-family: montserrat;
+    width: 375px;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.icone {
+    width: 28px;
+    height: 23px;
+}
+
+#check {
+    display: none;
+}
+
+#icone {
+    cursor: pointer;
+    padding: 15px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+}
+
+.barra {
+    background-color: #A3A3A3;
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    transition: all .2s linear; 
+    left: -300px;
+    top: 72px;
+}
+
+.nav-top {
+    top:24px;
+    position: fixed;
+    background-color: white;
+    height: 48px;
+}
+
+
+.nav-lat {
+    width: 100%;
+    position: absolute;
+    top: 20px;
+}
+
+.nav-lat a {
+    text-decoration: none;
+}
+
+.link {
+    font-family: montserrat;
+    padding: 20px;
+    font-size: 16px;
+    transition: all .2s linear;
+    color: white;
+    text-decoration: none;
+
+}
+
+.logo-link {
+    height: 22px;
+    width: 20px;
+}
+
+#check:checked ~ .barra{
+    transform: translateX(300px);
+}
+
+#check:checked ~ .barra nav a .link{
+    margin-top: 0;
+}
+
+
+.statusbar{
+    width: 376px;
+    background-image: url('/src/img/status_bar.png');
+    width: 375px;    
+    position:fixed;
+    top:0;
+    left: 0;
+}
