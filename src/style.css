@@ -25,10 +25,24 @@ h3 {
     color: black;
     font-size: 18px !important;
     padding-top: 15px;
-    word-wrap: break-word;
     padding-right: 10px;
     padding-left: 10px;
 }
+
+
+h4 {
+    color: black;
+    font-size: 18px !important;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+h5 {
+    color: black;
+    font-size: 13px !important;
+    padding-top: 15px;
+}
+
 
 p {
     color: black;
@@ -57,6 +71,29 @@ label {
 
     padding-top: 20px;
     background-color: #C4C4C4;
+}
+
+.box-ebook {
+    background-color: #C4C4C4;
+    height: 120;
+    width: 120;
+    padding-bottom: 15px;
+}
+
+
+.txt-ebook {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+.prc-ebook {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 5px !important;
+    color: #D53B3B !important;
+    font-weight: bold;
 }
 
 .container-news {
@@ -191,6 +228,7 @@ label {
     width: 30px;
 }
 
+
 #check:checked ~ .barra{
     transform: translateX(600px);
 }
@@ -199,6 +237,22 @@ label {
     margin-top: 0;
 }
 
+
+ul .item {
+    list-style-image: url("/src/img/checked.png");
+}
+
+ul .title {
+    list-style-image: url("/src/img/checked-title.png");
+}
+
+li .title {
+    padding-bottom: 15px;
+}
+
+ul .nonchecked {
+    list-style-image: url("seta.gif");
+}
 
 .statusbar{
     width: 376px;
