@@ -179,6 +179,20 @@ label {
     padding: 5px;
 }
 
+.box-txt-selected {
+    background: #9F9F9F;
+    mix-blend-mode: normal;
+    border: 0.75px solid #9F9F9F;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-size: 10px;
+    height: 25px;
+    vertical-align: middle;
+    padding: 5px;
+    color: white !important;
+    font-weight: bold !important;
+}
+
 .botao-vermelho {
     width: 250px;
     height: 42;
